@@ -85,4 +85,5 @@ h1:hover {
 
 #GOOPLE-DANCE:hover {
   transform: rotate(100deg);
+  margin-right: 1px;
 }
