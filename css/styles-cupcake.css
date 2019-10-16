@@ -12,11 +12,11 @@ li {
   font-size: 20px;
   position: relative;
   text-align: center;
-  /* background: linear-gradient(to right, black, white, white, black, white, white, black, black, white, white, black, white, white, black, black, white, white, black, white, white, black) */
+
 }
 
 #mon-1 {
-    background: linear-gradient(to right, black, darkgrey, lightblue, white, lightblue, darkgrey, black, black, darkgrey, darkgrey, white, lightblue, darkgrey, black, black, darkgrey, darkgrey, white, lightblue, darkgrey, black, darkgrey, lightblue, white, lightblue, darkgrey, black, darkgrey, black);
+    background: linear-gradient(to right, black, white, white, black, white, white, black, black, white, white, black, white, white, black, black, white, white, black, white, white, black)
 }
 #mon-2{
   background: linear-gradient(to right, black, white, white, black, white, white, black, black, white, white, black, white, white, black, black, white, white, black, white, white, black)
