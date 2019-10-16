@@ -41,4 +41,4 @@ Copyright (c) 2016 **_{List of contributors or company name}_**
   <h4>I DARE YOU</h4>
 </blockquote>
 
-This is MY goople [Google](https://img.theculturetrip.com/768x432/wp-content/uploads/2016/11/an-abandoned-building-in-goussainville-vieux-pays--sylvia-fredriksson.jpg/)!!!! 
+This is MY goople [Google](https://img.theculturetrip.com/768x432/wp-content/uploads/2016/11/an-abandoned-building-in-goussainville-vieux-pays--sylvia-fredriksson.jpg/)!!!!

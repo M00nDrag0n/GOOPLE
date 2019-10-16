@@ -1,25 +1,185 @@
 <!DOCTYPE html>
 <html
   <head>
-    <title></title>
+    <link href = "css/styles.css" rel="stylesheet" type="text/css">
+    <title>GOOPLE</title>
   </head>
   <body>
 
-    <blockquote>
-      <p>Write whatever you want inside this block quote</p>
-      <h4>I DARE YOU</h4>
-    </blockquote>
+    <img src="data:image/png;base64,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">
 
-    <p>*This is an experiment*</p>
-    +I think
-    +This needs
-    +To be
-    +In the
-    +README
-    +But it
-    +Makes a
-    +list.
-
+    <h1>GOOPLE! FAVORITE GOOPLE</h1>
+    <div id="GOOPLE">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+    </div>
+    <div class="Goople">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <h2>GOOPLE'S FAVORITE THING?!!</h2>
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <h1>MORE GOOPLE!!!!!!</h1>
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <div id="ONE">
+        <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      </div>
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+      <img src="https://www.bogleech.com/neo/mutant-skeith.png">
+    </div>
 
   </body>
 </html>
