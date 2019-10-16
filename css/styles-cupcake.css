@@ -15,9 +15,19 @@ li {
 
 }
 
+#plank img{
+  position: absolute;
+  transform: rotate(90deg);
+}
+
 #mon-1 {
     background: linear-gradient(to right, black, white, white, black, white, white, black, black, white, white, black, white, white, black, black, white, white, black, white, white, black)
 }
 #mon-2{
   background: linear-gradient(to right, black, white, white, black, white, white, black, black, white, white, black, white, white, black, black, white, white, black, white, white, black)
+}
+
+.CONSUME {
+  color: red;
+  background-color: black;
 }
