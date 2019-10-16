@@ -49,3 +49,25 @@ li {
 #cherry{
   color: red;
 }
+
+.column{
+  width: 750px;
+  float: left;
+  text-align: left;
+  margin-left: 200px;
+  font-size: 24px;
+
+}
+
+img{
+  position: relative;
+}
+
+#pink {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.quote {
+  font-style: italic;
+}
