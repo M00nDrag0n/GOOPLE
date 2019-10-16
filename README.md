@@ -51,4 +51,4 @@ Copyright (c) 2016 **_{List of contributors or company name}_**
 +Makes a
 +list.
 
-[1]: https://img.theculturetrip.com/768x432/wp-content/uploads/2016/11/an-abandoned-building-in-goussainville-vieux-pays--sylvia-fredriksson.jpg/    "Google"
+[1]: [Google](https://img.theculturetrip.com/768x432/wp-content/uploads/2016/11/an-abandoned-building-in-goussainville-vieux-pays--sylvia-fredriksson.jpg/).    "Google"
