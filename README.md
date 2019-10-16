@@ -41,14 +41,4 @@ Copyright (c) 2016 **_{List of contributors or company name}_**
   <h4>I DARE YOU</h4>
 </blockquote>
 
-<p>*This is an experiment*</p>
-+I think
-+This needs
-+To be
-+In the
-+README
-+But it
-+Makes a
-+list.
-
 [1]: [Google](https://img.theculturetrip.com/768x432/wp-content/uploads/2016/11/an-abandoned-building-in-goussainville-vieux-pays--sylvia-fredriksson.jpg/).    "Google"
