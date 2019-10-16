@@ -31,3 +31,21 @@ li {
   color: red;
   background-color: black;
 }
+
+.coSt{
+  color: darkgray;
+  background-color: #917537;
+}
+
+.A{
+  background-color: #c0ff2e;
+  color: #eb238a;
+  border-color: black;
+  border-width: thick;
+  border-style: solid;
+  font-size: 48px;
+}
+
+#cherry{
+  color: red;
+}
