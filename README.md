@@ -1,40 +1,46 @@
-# _Favorite Whatever_
+# _Favorite Things CSS Project_
 
-#### _heres an idea of a project, 10-16-2019_
+#### _Here's an idea of a project, 10-16-2019_
 
 #### By _**Dylan Manley and Anise Lester**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{Dancing Gooples! And a Cupcake Shop CSS project}_
 
-## Setup/Installation Requirements
+##List of Specs
+* _The program contains Gooples_
+* _The program makes them dance._
+* _The program changes the CSS layout at a certain screen width._
+* _The program also contains a cupcake shop_
 
-* _Take this link [] and paste it into your browser._
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+##Setup/Installation Requirements
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Take this link [ https://m00ndrag0n.github.io/GOOPLE/ ] and paste it into your browser._
+* _Have fun!_
+
+
+_{No additional servers needed.}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{There are no bugs. Just a lot of detailed CSS that causes the Gooples to dance on your screen upon hovering.}_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_{If issues are experienced, contact me at anise.i.lester@gmail.com.}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{HTML and CSS were used. Bootstrap, JavaScript, and jQuery will be added eventually.}_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*{The Prompt for this project is Licensed by Epicodus}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_{Anise Lester and Dylan Manley, students at Epicodus.}_**
+
+_{Below is a series of experiments with Markdown}_
 
 <blockquote>
   <p>Write whatever you want inside this block quote</p>
