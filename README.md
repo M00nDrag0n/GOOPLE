@@ -16,8 +16,10 @@ _{Dancing Gooples! And a Cupcake Shop CSS project}_
 
 ##Setup/Installation Requirements
 
-* _Take this link [ https://m00ndrag0n.github.io/GOOPLE/ ] and paste it into your browser._
+* _For Gooples, Take this link [ https://m00ndrag0n.github.io/GOOPLE/ ] and paste it into your browser._
+* _for Cupcakes, Take this link [ https://m00ndrag0n.github.io/GOOPLE/index-cupcake.html ] and paste it into your browser._
 * _Have fun!_
+
 
 
 _{No additional servers needed.}_
